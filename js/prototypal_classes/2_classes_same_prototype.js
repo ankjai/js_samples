@@ -1,5 +1,6 @@
 var Vehicle = function() {
     // body...
+    console.log("Vehicle");
 }
 
 /**
@@ -36,3 +37,7 @@ ben.move();
 
 console.log("amy loc:" + amy.loc);
 console.log("ben loc:" + ben.loc);
+
+// .prototype.constructor
+console.log("amy.prototype.constructor:" + amy.constructor);
+console.log("ben.prototype.constructor:" + ben.constructor);
